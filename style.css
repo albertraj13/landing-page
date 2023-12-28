@@ -64,21 +64,21 @@ header{
 }
 /* main */
 main{
-    padding: 6rem;
+    padding: 6rem 0;
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 main h2{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin-bottom: 1.5rem;
 }
 .cards{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 1rem;
-    
-
 }
 .cards div{
     width: 20%;
@@ -89,4 +89,38 @@ main h2{
     height: 11rem;
     border: 5px solid #3882f6 ;
     border-radius: 8px;
+}
+/* quotes */
+.quotes{
+    background-color: #e5e7eb;
+}
+.quotes-container{
+    width: 80%;
+    margin: auto;
+    padding: 4.5rem 0;
+}
+.quotes-container p{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    
+}
+.quotes-container p strong{
+    font-size: 20px;
+}
+.r-text{
+    text-align: right;
+}
+/* read more */
+.read-more{
+    padding: 4rem 0;
+}
+.read-more .container{
+    background-color: #3882f6;
+    color: #f9faf8; 
+    padding: 2rem 5rem;
+    border-radius: 6px;
+}
+.read-more .container button{
+    border: 2px solid #f9faf8;
 }
